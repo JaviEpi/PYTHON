@@ -1,14 +1,14 @@
 '''
-Ejercicio 02: 
+Ejercicio 14: Realizar un programa que compruebe si una cadena contiene una subcadena. Las dos cadenas se introducen por teclado.
 
- Autor: Javier Epifanio López
+Autor: Javier Epifanio López
 
- Fecha: 28/10/2019
+Fecha: 30/10/2019
 
- Algoritmo:
-
-
+Algoritmo:
 
 
- Variables:
+
+
+Variables:
 '''

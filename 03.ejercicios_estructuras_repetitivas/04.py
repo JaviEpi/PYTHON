@@ -6,9 +6,16 @@ Autor: Javier Epifanio López
 Fecha: 28/10/2019
 
 Algoritmo:
+    PEDIR el primer número
+    PEDIR el segundo número
+    Cálculos
+    Mostar la solución
+
 
 
 Variables:
+    * num_1
+    * num_2
 '''
 # Pedimos datos
 num_1 = int(input("Introduce el número 1: "))

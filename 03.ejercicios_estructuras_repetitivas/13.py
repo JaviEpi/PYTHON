@@ -1,14 +1,16 @@
 '''
-Ejercicio 02: 
+Ejercicio 13: Realizar un programa que lea una cadena por teclado y convierta las mayúsculas a minúsculas y viceversa.
 
- Autor: Javier Epifanio López
+Autor: Javier Epifanio López
 
- Fecha: 28/10/2019
+Fecha: 30/10/2019
 
- Algoritmo:
-
-
+Algoritmo:
 
 
- Variables:
+
+
+Variables:
 '''
+
+cadena=input("Introduce una cadena: ")

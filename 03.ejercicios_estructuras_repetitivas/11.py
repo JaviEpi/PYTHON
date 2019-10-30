@@ -1,14 +1,14 @@
 '''
-Ejercicio 02: 
+Ejercicio 11: 
 
- Autor: Javier Epifanio López
+Autor: Javier Epifanio López
 
- Fecha: 28/10/2019
+Fecha: 30/10/2019
 
- Algoritmo:
-
-
+Algoritmo:
 
 
- Variables:
+
+
+Variables:
 '''

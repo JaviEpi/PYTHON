@@ -1,14 +1,14 @@
 '''
-Ejercicio 02: 
+Ejercicio 07: Una persona adquirió un producto para pagar en 20 meses. El primer mes pagó 10 €, el segundo 20 €, el tercero 40 € y así sucesivamente. Realizar un programa para determinar cuánto debe pagar mensualmente y el total de lo que pagará después de los 20 meses.
 
- Autor: Javier Epifanio López
+Autor: Javier Epifanio López
 
- Fecha: 28/10/2019
+Fecha: 30/10/2019
 
- Algoritmo:
-
-
+Algoritmo:
 
 
- Variables:
+
+
+Variables:
 '''

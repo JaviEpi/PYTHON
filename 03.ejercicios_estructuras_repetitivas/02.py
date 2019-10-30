@@ -1,16 +1,23 @@
 '''
-Ejercicio 02: 
+Ejercicio 02: Realizar un algoritmo que pida números (se pedirá por teclado la cantidad de números a introducir). El programa debe informar de cuantos números introducidos son mayores que 0, menores que 0 e iguales a 0.
 
- Autor: Javier Epifanio López
+Autor: Javier Epifanio López
 
- Fecha: 28/10/2019
+Fecha: 28/10/2019
 
- Algoritmo:
+Algoritmo: 
+    PEDIR cantidad de numeros a introducir
+    Comprobar uno a uno si el número es positivo --> Si lo es añadir a contador positivo
+    Comprobar uno a uno si el número es negativo --> Si lo es añadir a contador negativo
+    Comprobar uno a uno si el número es cero     --> Si lo es añadir a contador cero
+    Mostrar el número de números positivos, negativos y ceros
 
 
 
-
- Variables:
+Variables:
+    * contador_positivos
+    * contador_negativos
+    * contador_ceros
 '''
 
 # Inicializamos contadores
