@@ -1,3 +1,4 @@
+# Pedimos el año
 año = int(input("Introduce el año: "))
 if año % 4 == 0:
     if año % 100 != 0:
