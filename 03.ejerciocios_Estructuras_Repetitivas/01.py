@@ -12,5 +12,7 @@ Ejercicio 01: Crea una aplicación que permita adivinar un número. La aplicaci�
 
  Variables:
 '''
-
+# Variables
+numero_aleatorio = 0
+intentos = 0
 
