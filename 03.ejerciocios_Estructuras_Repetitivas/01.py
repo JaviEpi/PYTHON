@@ -12,7 +12,32 @@ Ejercicio 01: Crea una aplicación que permita adivinar un número. La aplicaci�
 
  Variables:
 '''
-# Variables
-numero_aleatorio = 0
+import random
+
+# Constantes
+intentos_maximos = 10
+
+# Inicializamos
 intentos = 0
+numero_adivinar = random.randrange(1,100)
+
+# Proceso
+while True: #Ciclo postcondición
+    numero = int(input("Te quedan " + str(10 - intentos) + " intentos. " + 
+    "Introduce un número entre 1 y 100: "))
+    intentos += 1
+    if numero < numero_adivinar:
+        print(f"{numero} es menor que número a adivinar")
+    else:
+        print(f"{numero} es mayor que número a adivinar")
+    if numero == numero_adivinar or intentos == intentos_maximos:
+        break
+# Mostramos resultado
+if numero == numero_adivinar:
+    print (f"Has adivinado el número en {intentos} intentos")
+else:
+    print (f"Has consumido el máximo de intentos, el número a adivinar era {numero_adivinar}")
+
+
+
 
