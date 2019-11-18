@@ -19,10 +19,30 @@ Variables:
 
 import time
 
+'''
+horas = 0
+minutos = 0
+segundos = 0
+
+while True:
+    print(f"{horas:02} : {minutos:02} : {segundos:02}", end="")
+    time.sleep(1)
+
+    if segundos < 59:
+        segundos += 1
+    else:
+        segundos = 0
+        if minutos < 59:
+            minutos = 1
+        else:
+            minutos = 0
+            horas += 1
+    print(0 * "\b", end="")       
+'''
 print("Cronómetro iniciado")
 
-for h in range(0,24):
-    for m in range(0,60):
-        for s in range(0,60):
-            print(f"Hora: {h} Minuto: {m} Segundo:{s}")
+for horas in range(0,24):
+    for minutos in range(0,60):
+        for segundos in range(0,60):
+            print(f"{horas:02}:{minutos:02}:{segundos:02}")
             time.sleep(1)
